@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Burnouts is a hand-drawn character collection from the wrong side of 1997."
+    />
+    <title>Burnouts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700;800&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="scanline" aria-hidden="true"></div>
+
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Burnouts home">
+        <img src="burnouts.gif" alt="" />
+      </a>
+      <nav>
+        <a href="#world">World</a>
+        <a href="#crew">Crew</a>
+        <a href="#collection">Collection</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <img src="burnouts banner.png" alt="" />
+        </div>
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-content reveal">
+          <h1 id="hero-title">BURNOUTS</h1>
+          <p class="hero-subtitle">Four dead-eyed kids. One dead-end world.</p>
+          <p class="hero-line">
+            A hand-drawn character collection from the wrong side of 1997.
+          </p>
+          <div class="hero-actions" aria-label="Burnouts calls to action">
+            <a class="button button-primary" href="#trailer">Enter the Void</a>
+            <a class="button button-secondary" href="#collection">View Collection</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="mood-strip" aria-label="Burnouts mood strip">
+        <div class="marquee">
+          <div class="marquee-track">
+            <span>No future.</span>
+            <span>No refunds.</span>
+            <span>Last stop.</span>
+            <span>Est. 1997.</span>
+            <span>Same night, different mistake.</span>
+            <span>No future.</span>
+            <span>No refunds.</span>
+            <span>Last stop.</span>
+            <span>Est. 1997.</span>
+            <span>Same night, different mistake.</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-world" id="world" aria-labelledby="world-title">
+        <div class="section-heading reveal">
+          <h2 id="world-title">The World</h2>
+          <p>Stills from places nobody meant to stay.</p>
+        </div>
+        <div class="world-grid">
+          <article class="world-card wide reveal">
+            <img src="roadtrip.jpeg" alt="Burnouts characters driving across a desert road" />
+            <span>Desert runs</span>
+          </article>
+          <article class="world-card reveal">
+            <img src="sunset.jpeg" alt="Burnouts characters looking over a city skyline at sunset" />
+            <span>Rooftop silence</span>
+          </article>
+          <article class="world-card reveal">
+            <img src="restaurant.png" alt="Burnouts characters sitting in a late night diner" />
+            <span>Bad ideas</span>
+          </article>
+          <article class="world-card reveal">
+            <img src="roadtrip 2.jpeg" alt="Burnouts characters inside a car near a roadside sign" />
+            <span>Midnight gas</span>
+          </article>
+          <article class="world-card reveal">
+            <img src="burnouts banner.png" alt="Burnouts desert skyline with worn roadside signs" />
+            <span>Dead motels</span>
+          </article>
+          <article class="world-card reveal">
+            <img src="burnouts pfp.png" alt="Burnouts characters in a decaying city" />
+            <span>Nowhere left</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-crew" id="crew" aria-labelledby="crew-title">
+        <div class="section-heading reveal">
+          <h2 id="crew-title">The Crew</h2>
+          <p>Four regular mistakes in limited supply.</p>
+        </div>
+        <div class="crew-grid">
+          <article class="crew-card reveal">
+            <div class="crew-image">
+              <img src="public/png 3.png" alt="The Driver character" />
+            </div>
+            <h3>The Driver</h3>
+            <p>Always leaving. Never arriving.</p>
+          </article>
+          <article class="crew-card reveal">
+            <div class="crew-image">
+              <img src="public/png 4.png" alt="The Smoker character" />
+            </div>
+            <h3>The Smoker</h3>
+            <p>Laughs first. Thinks later.</p>
+          </article>
+          <article class="crew-card reveal">
+            <div class="crew-image">
+              <img src="public/png 7.png" alt="The Sleeper character" />
+            </div>
+            <h3>The Sleeper</h3>
+            <p>Tired of everything, especially you.</p>
+          </article>
+          <article class="crew-card reveal">
+            <div class="crew-image">
+              <img src="public/png 8.png" alt="The Wildcard character" />
+            </div>
+            <h3>The Wildcard</h3>
+            <p>Bad luck with a pulse.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section trailer-section" id="trailer" aria-labelledby="trailer-title">
+        <div class="trailer-copy reveal">
+          <h2 id="trailer-title">Looks like a cartoon. Feels like a bad decision.</h2>
+          <p>
+            Burnouts lives in loops, trailers, stills, and late-night fragments - a
+            world built from smoke, empty roads, and characters who should probably
+            go home.
+          </p>
+        </div>
+        <div class="video-frame reveal">
+          <video
+            src="burnouts promo 4 vid.mp4"
+            poster="burnouts banner.png"
+            controls
+            preload="metadata"
+          ></video>
+          <div class="video-label">promo fragment / 00:97</div>
+        </div>
+      </section>
+
+      <section class="section collection-section" id="collection" aria-labelledby="collection-title">
+        <div class="collection-copy reveal">
+          <h2 id="collection-title">The Collection</h2>
+          <p>
+            A limited run of hand-drawn Burnouts characters, scenes, and artifacts
+            from a world that peaked before it started.
+          </p>
+        </div>
+        <div class="collection-layout">
+          <div class="drop-panel reveal">
+            <dl>
+              <div>
+                <dt>Supply</dt>
+                <dd>TBA</dd>
+              </div>
+              <div>
+                <dt>Mint status</dt>
+                <dd>Not live</dd>
+              </div>
+              <div>
+                <dt>Marketplace</dt>
+                <dd><a href="#" aria-label="Burnouts marketplace link">Coming soon</a></dd>
+              </div>
+            </dl>
+          </div>
+          <div class="preview-grid" aria-label="Collection preview">
+            <img class="reveal" src="public/png 1.png" alt="Burnouts collection preview character" />
+            <img class="reveal" src="public/png 2.png" alt="Burnouts collection preview character" />
+            <img class="reveal" src="public/png 5.png" alt="Burnouts collection preview character" />
+            <img class="reveal" src="public/png 6.png" alt="Burnouts collection preview character" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <img src="burnouts.gif" alt="Burnouts" />
+      <div class="footer-links">
+        <a href="#" aria-label="Burnouts X profile">X</a>
+        <a href="#" aria-label="Burnouts Discord">Discord</a>
+        <a href="#" aria-label="Burnouts marketplace">Marketplace</a>
+      </div>
+      <p>Burnouts - gone nowhere since 1997.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
